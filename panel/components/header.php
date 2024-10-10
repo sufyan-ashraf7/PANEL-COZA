@@ -1,5 +1,8 @@
 <?php
 include("php/query.php");
+if($_SESSION['userRole']!="admin"){
+    echo "<script> location.assign ('../index.php');</script>";
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
