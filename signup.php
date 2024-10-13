@@ -1,7 +1,19 @@
 <?php
 include("component/header.php")
 ?>
-
+<style>  input {
+    padding: 10px;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    outline: none;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  input:focus {
+    box-shadow: 0 0 22px rgba(219, 105, 52, 0.952);
+    border-color: black;
+  }
+  </style>
 
 <!-- Title page -->
 <section class="bg-img1 txt-center p-lr-15 p-tb-92" style="background-image: url('images/bg-01.jpg');">
@@ -22,7 +34,7 @@ include("component/header.php")
 						</h4>
 
 						<div class="bor8 m-b-20 how-pos4-parent">
-							<input class="stext-111 cl2 plh3 size-116 p-l-62 p-r-30" type="text" name="uname" placeholder="Your Email Address">
+							<input class="stext-111 cl2 plh3 size-116 p-l-62 p-r-30" type="text" name="uname" placeholder="Your Name">
 							<img class="how-pos4 pointer-none" src="images/icons/icon-email.png" alt="ICON">
 						</div>
                         <div class="bor8 m-b-20 how-pos4-parent">
@@ -30,11 +42,11 @@ include("component/header.php")
 							<img class="how-pos4 pointer-none" src="images/icons/icon-email.png" alt="ICON">
 						</div>
                         <div class="bor8 m-b-20 how-pos4-parent">
-							<input class="stext-111 cl2 plh3 size-116 p-l-62 p-r-30" type="password" name="upassword" placeholder="Your Email Address">
+							<input class="stext-111 cl2 plh3 size-116 p-l-62 p-r-30" type="password" name="upassword" placeholder="Your Password">
 							<img class="how-pos4 pointer-none" src="images/icons/icon-email.png" alt="ICON">
 						</div>
                         <div class="bor8 m-b-20 how-pos4-parent">
-							<input class="stext-111 cl2 plh3 size-116 p-l-62 p-r-30" type="tel" name="unumber" placeholder="Your Email Address">
+							<input class="stext-111 cl2 plh3 size-116 p-l-62 p-r-30" type="tel" name="unumber" placeholder="Your Number">
 							<img class="how-pos4 pointer-none" src="images/icons/icon-email.png" alt="ICON">
 						</div>
 

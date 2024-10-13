@@ -1,7 +1,19 @@
 <?php
 include("component/header.php");
 ?>
-
+<style>  input {
+    padding: 10px;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    outline: none;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  input:focus {
+    box-shadow: 0 0 22px rgba(219, 105, 52, 0.952);
+    border-color: #a6b929;
+  }
+  </style>
 
 <!-- Title page -->
 <section class="bg-img1 txt-center p-lr-15 p-tb-92" style="background-image: url('images/bg-01.jpg');">
